@@ -76,30 +76,6 @@
         "name": "Qniff Setup One",
         "code": "100"
       }
-    },
-    {
-      "generalInformations": {
-        "status": "1",
-        "name": "Test One",
-        "image": {
-          "status": "1",
-          "name": "Test One",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/My_dog.jpg/1280px-My_dog.jpg",
-          "description": "Pre test description"
-        },
-        "description": "Pre test description"
-      },
-      "channelSettings": {
-        "name": "Name channel ",
-        "description": "Descript name channel",
-        "type": "1",
-        "duration": 55
-      },
-      "sniffSetup": {
-        "name": "Sniff name ",
-        "code": 15
-      },
-      "id": 4
     }
   ]
 }

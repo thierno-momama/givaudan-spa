@@ -1,4 +1,19 @@
-# AiRomi
+# AI-ROMI
+1. Page login
+2. Page Singup
+3. Dashboard
+4. CRUD Test Arome with stepper....
+![Page login](./src/assets/img/login.png)
+![Page signup](./src/assets/img/signup.png)
+![Dashboard](./src/assets/img/dashboard.png)
+![details test](./src/assets/img/add-test1.png)
+![add Test](./src/assets/img/add-test2.png)
+![add Test](./src/assets/img/add-test3.png)
+![add Test](./src/assets/img/add-test4.png)
+![add Test](./src/assets/img/add-sucess.png)
+![add Test](./src/assets/img/list-add.png)
+![Vue add test](./src/assets/img/details.png)
+![Delete Test](./src/assets/img/delete.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
