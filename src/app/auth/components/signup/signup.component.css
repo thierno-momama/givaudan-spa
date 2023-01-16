@@ -1,0 +1,20 @@
+.signup{
+    width: 600px;
+    margin: auto;
+    /* border: 1px solid #000; */
+    margin-top: 100px;
+    text-align: center;
+    padding: 5px;
+}
+.signup h1 {
+   margin-bottom: 50px; 
+}
+.example-form{
+    display: flex;
+    flex-direction: column;
+}
+.example-form p{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}

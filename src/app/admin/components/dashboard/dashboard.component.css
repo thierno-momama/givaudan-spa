@@ -1,0 +1,47 @@
+header{
+    background-color: rgb(242, 238, 238);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .entete h1{
+    color: rgb(117, 47, 250);
+    margin-bottom: 0;
+}
+header .entete h1 > span{
+    font-size: .5em;
+}
+header p > .btnLink{
+    border: none;
+    background-color: rgb(117, 47, 250);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+header p > .btnLink:hover{
+    background-color: rgb(61, 7, 163);
+}
+.test{
+    background-color: lightgray;
+    width: 700px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.test h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 5px;
+    padding-left: 20px;
+}
+.test h3 a{
+    text-decoration: none;
+    color: #000;
+}
+.test button {
+    margin: 0px 5px;
+}

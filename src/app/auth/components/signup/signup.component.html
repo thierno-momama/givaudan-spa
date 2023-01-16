@@ -1,0 +1,19 @@
+<div class="signup">
+    <h1>{{ title }}</h1>
+    <p>Identity information</p>
+    <form class="example-form" [formGroup]="profilForm" (ngSubmit)="onSubmit()">
+        <mat-form-field class="example-full-width">
+          <mat-label>Fullname</mat-label>
+          <input type="text" matInput placeholder="Full name" name="fullname" id="fullname" formControlName="fullname">
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+          <mat-label>Email</mat-label>
+          <input type="email" matInput placeholder="ai-romi@gmail.com" name="email" id="email" formControlName="email">
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+          <mat-label>Password</mat-label>
+          <input type="password" matInput placeholder="...." name="password" id="password" formControlName="password">
+        </mat-form-field>
+        <p><button mat-raised-button color="primary">Create account <fa-icon [icon]="faArrowRight"></fa-icon></button></p>
+    </form>
+</div>

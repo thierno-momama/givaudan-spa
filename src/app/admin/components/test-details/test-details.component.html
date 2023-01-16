@@ -1,0 +1,8 @@
+<div *ngIf="test">
+    <h3>Name: {{ test.generalInformations.name }}</h3>
+    <p>Description : {{ test.generalInformations.name }}</p>
+    <p>Status : {{ test.generalInformations.status }}</p>
+    <p>Channel : {{ test.channelSettings.name }}</p>
+    <p>Sniff {{ test.sniffSetup.name }}</p>
+    <button routerLink="/dashboard" mat-raised-button color="primary">Retour Dashboard</button>
+</div>

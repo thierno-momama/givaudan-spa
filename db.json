@@ -1,0 +1,105 @@
+{
+  "signup": [
+    {
+      "id": 1,
+      "fullname": "arom",
+      "email": "arom@gmail.com",
+      "password": "arom1234"
+    },
+    {
+      "fullname": "Aboubacar Sidiki SOUMAH",
+      "email": "Aboubacar Sidiki SOUMAH",
+      "password": "1234",
+      "id": 2
+    },
+    {
+      "fullname": "Alkaly Mohamed SOUMAH",
+      "email": "Alkaly Mohamed SOUMAH",
+      "password": "1234",
+      "id": 3
+    }
+  ],
+  "tests": [
+    {
+      "id": 1,
+      "generalInformations": {
+        "status": "ouvert",
+        "name": "Nestle new Vanilla, fabricant suisse d'arômes, de parfums et d'ingrédients actifs cosmétiques.",
+        "image": "http://placehold.it/300x300",
+        "description": "Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum ou Lipsum."
+      },
+      "channelSettings": {
+        "name": "Channel One",
+        "description": "Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum ou Lipsum.",
+        "type": "string",
+        "duration": "200"
+      },
+      "sniffSetup": {
+        "name": "Qniff Setup One",
+        "code": "100"
+      }
+    },
+    {
+      "id": 2,
+      "generalInformations": {
+        "status": "ferme",
+        "name": "Nestle new Yaourt,  fabricant suisse d'arômes, de parfums et d'ingrédients actifs cosmétiques.",
+        "image": "http://placehold.it/300x300",
+        "description": "Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum ou Lipsum."
+      },
+      "channelSettings": {
+        "name": "Channel Two",
+        "description": "Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum ou Lipsum.",
+        "type": "string",
+        "duration": "200"
+      },
+      "sniffSetup": {
+        "name": "Qniff Setup One",
+        "code": "100"
+      }
+    },
+    {
+      "id": 3,
+      "generalInformations": {
+        "status": "Open",
+        "name": "Other Arome,  fabricant suisse d'arômes, de parfums et d'ingrédients actifs cosmétiques.",
+        "image": "http://placehold.it/300x300",
+        "description": "Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum ou Lipsum."
+      },
+      "channelSettings": {
+        "name": "Channel Three",
+        "description": "Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum ou Lipsum.",
+        "type": "string",
+        "duration": "200"
+      },
+      "sniffSetup": {
+        "name": "Qniff Setup One",
+        "code": "100"
+      }
+    },
+    {
+      "generalInformations": {
+        "status": "1",
+        "name": "Test One",
+        "image": {
+          "status": "1",
+          "name": "Test One",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/My_dog.jpg/1280px-My_dog.jpg",
+          "description": "Pre test description"
+        },
+        "description": "Pre test description"
+      },
+      "channelSettings": {
+        "name": "Name channel ",
+        "description": "Descript name channel",
+        "type": "1",
+        "duration": 55
+      },
+      "sniffSetup": {
+        "name": "Sniff name ",
+        "code": 15
+      },
+      "id": 4
+    }
+  ]
+}

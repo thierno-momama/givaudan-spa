@@ -1,0 +1,19 @@
+<header>
+    <div class="entete">
+        <h1>{{ title }}</h1>
+        <span>Test List</span>
+    </div>
+    <p><a routerLink="/add" class="btnLink"><fa-icon [icon]="faCirclePlus" title="Add Test"></fa-icon> Create new Test</a></p>
+    <mat-form-field appearance="fill">
+        <mat-label>Rank by</mat-label>
+        <select matNativeControl>
+          <option value="audi">Name</option>
+        </select>
+    </mat-form-field>
+</header>
+
+<div *ngFor="let test of tests" class="test">
+    <h3><a [routerLink]="['/tests', test.id]">{{ test.generalInformations.name }}</a></h3>
+    <button mat-stroked-button color="accent" (click)="onUpdate(test)">Modifier</button>
+    <button mat-raised-button color="warn" (click)="onDelete(test)"><fa-icon [icon]="faTimes"></fa-icon></button>
+</div>

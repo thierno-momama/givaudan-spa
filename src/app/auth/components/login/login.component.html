@@ -1,0 +1,15 @@
+<div class="login">
+    <h1>{{ title }}</h1>
+    <form class="example-form" [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+        <mat-form-field class="example-full-width">
+          <mat-label>Account login ID</mat-label>
+          <input type="email" matInput placeholder="ai-romi@gmail.com" name="email" id="email" formControlName="email">
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+          <mat-label>Password</mat-label>
+          <input type="password" matInput placeholder="...." name="password" id="password" formControlName="password">
+        </mat-form-field>
+        <p><button mat-raised-button color="primary">Validate <fa-icon [icon]="faArrowRight"></fa-icon></button></p>
+        <span>Not Yet a member? <a routerLink="/signup">Create new account</a></span>
+    </form>
+</div>

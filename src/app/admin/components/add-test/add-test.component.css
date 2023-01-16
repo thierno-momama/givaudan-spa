@@ -1,0 +1,25 @@
+mat-stepper, mat-step{
+    margin-top: 20px;
+}
+.generalInformations{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.generalInformations mat-form-field {
+    width: 400px;
+    margin-bottom: 30px;
+}
+.btnPreviousNext{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 180px;
+}
+.btnPreviousNext button{
+    margin: 0px 5px;
+}
+.channelSettings{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}

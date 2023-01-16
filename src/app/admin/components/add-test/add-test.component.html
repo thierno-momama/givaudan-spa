@@ -1,0 +1,86 @@
+<form [formGroup]="Empregister" (ngSubmit)="onSubmit()">
+    <mat-stepper [linear]="isLinear" #stepper>
+        <mat-step [stepControl]="generalInformationsForm">
+            <div formGroupName="generalInformations">
+                <ng-template matStepLabel>General Informations</ng-template>
+                <div class="generalInformations">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Name</mat-label>
+                        <input matInput formControlName="name" placeholder="Name">
+                    </mat-form-field>
+                    <mat-radio-group formControlName="status" aria-label="Select an option">
+                        <p><label id="example-radio-group-label">Type</label></p>
+                        <mat-radio-button value="1">Pre-set sniff Test</mat-radio-button>
+                        <mat-radio-button value="2">Full test</mat-radio-button>
+                        <mat-radio-button value="3">End product test</mat-radio-button>
+                    </mat-radio-group>     
+                </div>
+                <div class="generalInformations">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Test Image</mat-label>
+                        <input matInput formControlName="image" placeholder="image">
+                    </mat-form-field>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>CUSTOMERS</mat-label>
+                        <textarea matInput placeholder="description" formControlName="description"></textarea>
+                    </mat-form-field>
+                </div>
+                <div class="btnPreviousNext">
+                    <button mat-raised-button (click)="stepper.reset()">CANCEL</button>
+                    <button mat-raised-button color="primary" matStepperNext>Next Step</button>
+                </div>
+            </div>
+        </mat-step>
+        <mat-step [stepControl]="channelSettingsForm">
+            <div formGroupName="channelSettings">
+                <ng-template matStepLabel>Channel Settings</ng-template>
+                <div class="channelSettings">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Channel Name</mat-label>
+                        <input matInput formControlName="name" placeholder="Name">
+                    </mat-form-field>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Channel Ingredients Descriptions</mat-label>
+                        <textarea matInput placeholder="Enter description" formControlName="description"></textarea>
+                    </mat-form-field> 
+                    <mat-radio-group formControlName="type" aria-label="Select an option">
+                        <p><label id="example-radio-group-label">Channel Type</label></p>
+                        <mat-radio-button value="1">Customizable</mat-radio-button>
+                        <mat-radio-button value="2">Locked</mat-radio-button>
+                        <mat-radio-button value="3">Hidden</mat-radio-button>
+                    </mat-radio-group> 
+                    <mat-form-field appearance="fill">
+                        <mat-label>Duration </mat-label>
+                        <input matInput type="number" formControlName="duration" placeholder="Duration Seconds">
+                        <span>Seconds</span>
+                    </mat-form-field>  
+                </div>
+                <div class="btnPreviousNext">
+                    <button mat-raised-button matStepperPrevious>CANCEL</button>
+                    <button mat-raised-button color="primary" matStepperNext>Next Step</button>
+                </div>
+            </div>
+        </mat-step>
+        <mat-step [stepControl]="sniffSetupForm">
+            <div formGroupName="sniffSetup">
+                <ng-template matStepLabel>Sniff set-up</ng-template>
+                <div class="channelSettings">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Name</mat-label>
+                        <input matInput formControlName="name" placeholder="Name">
+                    </mat-form-field>
+                    <mat-form-field appearance="fill">
+                        <mat-label>Code </mat-label>
+                        <input matInput type="number" formControlName="code" placeholder="Code">
+                    </mat-form-field>     
+                </div>
+                <div class="btnPreviousNext">
+                    <button mat-raised-button matStepperPrevious>Back</button>
+                    <button type="submit" mat-raised-button color="primary" matStepperNext>SUBMIT</button>
+                </div>
+            </div>
+        </mat-step>
+        
+    </mat-stepper>
+</form>
+  
